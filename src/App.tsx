@@ -5,6 +5,12 @@ import { TodoList } from './components/TodoList'
 import { Typography, Card, AppBar, Toolbar } from '@material-ui/core'
 import { AddTodo, Todo, ToggleComplete } from './components/todoModel'
 
+const styles = {
+  bar: {
+    backgroundColor: '#274472',
+  },
+}
+
 function App() {
   const [todos, setTodos] = useState<Array<Todo>>([])
 
@@ -26,7 +32,7 @@ function App() {
 
   return (
     <div>
-      <AppBar position='relative' style={{ backgroundColor: '#274472' }}>
+      <AppBar position='relative' style={styles.bar}>
         <Toolbar></Toolbar>
       </AppBar>
       <Card className='todo-app'>

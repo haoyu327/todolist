@@ -10,7 +10,7 @@ const styles = {
     width: '50%',
   },
   submit: {
-    padding: '11px 16px',
+    padding: '16px 16px',
     backgroundColor: '#274472',
     color: 'white',
   },
