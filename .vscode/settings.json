@@ -2,5 +2,6 @@
   "editor.formatOnSave": true,
   "prettier.jsxSingleQuote": true,
   "prettier.jsxBracketSameLine": true,
+  "prettier.semi": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
